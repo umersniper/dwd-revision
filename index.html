@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div
+    {
+        width: 7%;
+        height: 10vh;
+        border: solid 2px red;
+        animation-name: abc;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-delay: 3s;
+        border-radius: 80px;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+    }
+    @keyframes abc
+    {
+        10%
+        {
+            background-color: rebeccapurple;
+        }
+        100%
+        {
+            background-color: violet;
+
+            transform: rotate(360deg);
+        }
+    }
+</style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
